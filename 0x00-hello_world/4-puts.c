@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 
 
@@ -23,3 +23,5 @@ int main(void)
 	return (0);
 
 }
+
+
