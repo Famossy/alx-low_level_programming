@@ -1,17 +1,9 @@
 #include <stdio.h>
-
-
-
 /**
+ *main - Enrty point
+ *Return: Always 0
  *
- * *main - Enrty point
- *
- * *
- *
- * *Return: Always 0
- *
- * */
-
+ */
 int main(void)
 
 {
@@ -29,5 +21,4 @@ int main(void)
 
 
 	return (0);
-
 }
