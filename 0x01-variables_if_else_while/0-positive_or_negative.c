@@ -7,9 +7,8 @@
 
 
 /**
- *
- * main - entry point
- * Return: 0
+ *  main - entry point
+ *  Return: 0
  */
 
 int main(void)
