@@ -10,7 +10,6 @@
 
 
 int main(void)
-
 	{
 
 	char ch = 'a';
@@ -23,18 +22,18 @@ int main(void)
 
 	{
 
-		if (ch != 'q' &&  ch != 'e')
+	if (ch != 'q' &&  ch != 'e')
 
-		putchar(ch);
+	putchar(ch);
 
-		ch++;
+	ch++;
 
-		i++;
+	i++;
 
-		     }
+	}
 
-		putchar('\n');
+	putchar('\n');
 
-		return (0);
+	return (0);
 
 }
