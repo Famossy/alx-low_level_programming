@@ -1,15 +1,20 @@
-# include <stdio.h>
-# include <stdlib.h>
-/** 
- * This statement shows the sign of variable n
- * Main- is the main fuction
- * i hope i get this right
- */
-/* more headers goes there */
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <time.h>
 
 
 
-/* betty style doc for function main goes there */
+/**
+ *
+ *  * main - entry point
+ *
+ *   *
+ *
+ *    * Return: 0
+ *
+ *     */
 
 int main(void)
 
@@ -25,12 +30,18 @@ int main(void)
 
 					/* your code goes there */
 
-					return (0);
-if (n = 0)   {	printf("number is Zero")
-}
-else if (if n > 0)
-{
-	printf("number is Positive")
-		else printf("number is Negative")
-}
+					if (n > 0)
+
+								printf("%d is positive\n", n);
+
+						else if (n == 0)
+
+									printf("%d is zero\n", n);
+
+							else
+
+										printf("%d is negative\n", n);
+
+								return (0);
+
 }
