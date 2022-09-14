@@ -1,31 +1,24 @@
-#include "main.h"
+int _putchar(char c);
 
-/**
- *  main - Prints _putchar as a message.
- *  Return: Always 0 (Success)
- */
+void print_alphabet(void);
 
-int main(void)
+void print_alphabet_x10(void);
 
-{
+int _islower(int c);
 
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+int _isalpha(int c);
 
-	int count, sz;
+int print_sign(int n);
 
+int _abs(int);
 
-	sz = sizeof(str) / sizeof(int);
+int print_last_digit(int);
 
-	for (count = 0; count < sz; count++)
+void jack_bauer(void);
 
-	{
+void times_table(void);
 
-	putchar(str[count]);
+int add(int, int);
 
-	
+void print_to_98(int n);
 
-	putchar('\n');
-
-	return (0);
-
-}
